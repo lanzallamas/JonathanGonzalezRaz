@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Open sans';
+    background-color: black;
+}
+header{
+    background-color: black;
+    text-align: center;
+    padding: 50px 0; 
+}
+nav a{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    margin:0 30px;
+    padding:5px 15px;
+    border-radius: 30px;
+}
+nav a:hover{
+    background-color: white;
+    color: black;
+}
+.encabezado-img{
+    background-image: url(6997.jpg);
+    height: 800px;
+    background-size: cover;
+}
+.encabezado-img p{
+    font-size: 20px;
+}
+.encabezado-img h1{
+    font-size: 50px;
+    padding: 20px 0;
+}
+section{
+    font-family: 'Open Sans';
+}
+.contenido{
+    max-width: 1200px;
+    width: 100%;
+    margin: 40px ;
+    display: flex;
+}
+.mostrador{
+    width: 100%;
+    transition: .5s ease;
+}
+.mostrador .fila{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.mostrador .fila .item{
+    max-width: 210px;
+    padding: 30px;
+    height: 250px;
+    text-align: center;
+    margin: 0 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: .3s;
+}
+.mostrador .fila .item:hover{
+    background-color: #e6e6e6;
+}
+.mostrador .fila .item img{
+    width: 100%;
+    margin: 30px 0;
+}
+.mostrador .fila .item .descripcion{
+    color: #707070;
+    font-weight: bold;
+}
+.mostrador .fila .item .precio{
+    color: #f85151;
+    font-weight: bold;
+    font-size: 20px;
+}
